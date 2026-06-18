@@ -1,0 +1,19 @@
+body{
+    background-image: url(Sem\ título.jpg);
+    background-repeat: no-repeat0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+a{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+}
