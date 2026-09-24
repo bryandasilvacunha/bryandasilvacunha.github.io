@@ -41,4 +41,20 @@ header li:hover{
 }
 .laranja{
     background-color: #ca4e30;
+    height: 400px;
+}
+.branca{
+    width: 100%;
+}
+.boxes{
+    flex-wrap: wrap;
+display: flex;
+width: 930px;
+margin: 0 auto;
+}
+.box{
+    width: 310px;
+    margin: 0px;
+    padding: 30px;
+    box-sizing: border-box;
 }

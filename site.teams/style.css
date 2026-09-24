@@ -1,0 +1,92 @@
+header ul{
+display: flex;
+list-style: none;
+justify-content: space-between;
+flex-direction: row;
+width: 200px;
+margin: 0;
+padding-left: 0;
+
+}
+nav{
+    font-size: .8em;
+}
+header{
+    background-size: cover;
+    background-image:url(images/bokeh_car_lights_bg.jpg);
+    padding: 20px ;
+}
+a{
+    color: aliceblue;
+}
+*{font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+box-sizing: border-box;}
+header * {
+   
+}
+header, footer{
+    color:#fff;
+}
+main{
+    color: #000;
+}
+header h1{
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+}
+header li{
+     padding: 5px 15px;
+     border-radius: 20px;
+}
+header li:last-child,header li:hover {
+    
+    background-color: #fff;
+   
+}
+header li a,header li:hover
+{color: #000;
+    
+}
+.botao{
+    border-radius: 25px;
+    padding: 5px 25px;
+    font-size: .8em;
+}
+.azul{
+    background-color: 
+    rgb(70, 173,212);
+}
+.logo{
+    padding: 20px 100px 30px;
+    margin: 0;
+    display: inline;
+}
+.topo
+{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    text-align: center;
+    background-color: rgb(245,245,245);
+}
+.one h2{
+    margin-top: 0;
+    padding-top: 50px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+    gap: 10px;
+}
+.card{
+width: 250px;
+padding: 10px 15px;
+background-color: #fff;
+}
