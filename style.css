@@ -1,103 +1,28 @@
-body{
-    background-color: rgb(255, 249, 243);
-    
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
     text-align: center;
 }
-a{
-    color: cadetblue;
-    text-decoration: none;
+p{
+    text-align: center;
 }
-
-li {
-    list-style: none;
+main button{
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+  margin-left: 200px;
 }
-img{
-    border-radius: 15px;
-    box-shadow: 0 0 10px;
-    width: 500px;
-}
-.pontos{
-    display: flex;
-padding: 20px;
-box-sizing: border-box;
+main button:hover{
+    transform: scale(1.05)
 
 }
-.pontos img{
-    width: 300px;
-    margin: 20px;
+.b1{
+    margin-bottom: 12px;
+    background-color: blue;
+    color: azure;
 }
-.anchieta{
-    padding: 20px;
-    border: #000 1px solid;
-}
-.cao{
-    padding: 20px;
-    border: #000 1px solid;
-}
-.country{
-    padding: 20px;
-    border: #000 1px solid;
-}
-.gastronomia{
-    display: flex;
-padding: 20px;
-box-sizing: border-box;
-
-}
-.gastronomia img{
-    width: 300px;
-    margin: 20px;
-}
-.br{
-    padding: 20px;
-    border: #000 1px solid;
-}
-.gir{
-    padding: 20px;
-    border: #000 1px solid;
-}
-.pa{
-    padding: 20px;
-    border: #000 1px solid;
-}
-.evento{
-    
-padding: 20px;
-box-sizing: border-box;
-
-
-}
-.evento img{
-    width: 450px;
-    margin: 20px;
-    align-items: center;
-}
-.a{
-    padding: 20px;
-    border: #000 1px solid;
-
-}
-.b{
-    padding: 20px;
-    border: #000 1px solid;
-}
-ul{
-    display: flex;
-    justify-content: space-between;
-    margin: 40px;
-}
-nav a:hover,li:hover{
-    background-color: rgb(45, 150, 115);
-    padding: 5px 5px 5px;
-border-radius: 10px;
-color: #fff;
-}
-footer{
-    border-top: #000 1px solid;
-}
-main{
-    border-top: #000 1px solid;
-}
-nav{
-    padding: 20px;
+footer h6{
+    text-align: center;
 }
