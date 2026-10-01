@@ -1,0 +1,28 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+main button{
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+  margin-left: 200px;
+}
+main button:hover{
+    transform: scale(1.05)
+
+}
+.b1{
+    margin-bottom: 12px;
+    background-color: blue;
+    color: azure;
+}
+footer h6{
+    text-align: center;
+}
