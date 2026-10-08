@@ -1,16 +1,27 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid red;
+    border: ;
     text-align: center;
+    text-decoration: none;
+   
 }
+body{
+     background: linear-gradient(to top,black,rgb(213, 212, 212));
+     height: 100vh;
+}
+      
+
 header h2{
     text-align: center;
     margin-bottom: 0;
 }
 ul{
+    margin: auto;
    list-style: none;
    display: flex;
-
+    width: 50%;
+    justify-content: space-between;
+    padding-left: 0;
 }
 header li{
      text-align: center;
@@ -18,7 +29,10 @@ header li{
 }
 header a{
     margin-top: 0;
-   ;
+    color: rgb(251, 251, 251);
+}
+header li:hover{
+   transform: scale(1.1);
 }
 main h1{
     margin-bottom: 0;
@@ -40,7 +54,7 @@ main h1,h3{
     padding: 10px 30px;
     border-radius: 5px;
     text-decoration: none;
-    background-color: #aaa;
+    background-color: #ede4e4;
     color: #000;
 }
 .botao:hover{
@@ -49,5 +63,5 @@ main h1,h3{
     box-shadow: 2px 5px 5px;
     color: rgb(255, 255, 255);
     transition: all .2s;
- background-color: rgb(50, 25, 243);
+ background-color: rgb(167, 152, 196);
 }
