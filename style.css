@@ -1,5 +1,35 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+
+}
+body{
+     background: linear-gradient(to top,rgb(176, 188, 255),rgb(213, 212, 212));
+     height: 100vh;
+}
+.1{
+    border-bottom: 1px solid black;
+}
+.btrabalho{
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+.btrabalho:hover{
+    transform: scale(1.1);
+    background-color: rgb(114, 114, 110);
+   transition: 1s;
+  
+}
+ul{
+    list-style: none;
+    
+}
+a{
+    color: black;
+}
+a:hover{
+      color: aliceblue;
 }
 h1{
     text-align: center;
@@ -15,8 +45,9 @@ main button{
   margin-left: 200px;
 }
 main button:hover{
-    transform: scale(1.05)
-
+    transform: scale(1.05);
+     transition: 1s;
+ 
 }
 .b1{
     margin-bottom: 12px;
