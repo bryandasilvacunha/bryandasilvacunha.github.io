@@ -1,0 +1,47 @@
+header{
+    border-bottom: 1px solid black;
+    padding: 60px;
+}
+.banner {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+filter:grayscale();
+box-shadow: 10px 15px 30px;
+margin: auto;
+}
+
+
+.banner:hover {
+transform: scale(1.04);
+filter:none;
+transition: 1s;
+}
+.q2{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+}
+.botao{
+    border-radius: 50em;
+    padding-top: 50px;
+    text-align: center; 
+   
+}
+.b{
+    padding: 145px 150px;
+    width: 90px;
+    border-radius: 50em;
+
+ background-color: rgb(139, 139, 139);
+}
+.b:hover{
+    transform: scale(1.05);
+    transition: 1s;
+   background-color: rgb(155, 79, 44);
+}
